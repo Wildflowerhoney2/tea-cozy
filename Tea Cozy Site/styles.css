@@ -1,0 +1,168 @@
+ * {
+    box-sizing: border-box;
+ }
+
+ html {
+   font-size: 22px; 
+ }
+body {
+   font-family: Helvetica, sans-serif;
+   color: seashell;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+ /*header*/
+
+ header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 69px;
+   width: 100%;
+   background-color: black;
+   border-bottom: 1px solid seashell;
+   position: fixed;
+   opacity: 1;
+   z-index: 1;
+}
+
+ .logo {
+    height: 50px;
+    margin-left: 10px;
+ }
+
+ .navigation  {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navigation a {
+    display: block;
+    padding: 1em;
+    text-decoration: underline;
+    color: seashell
+  }
+
+
+
+ /*body*/
+
+ main {
+   position: relative;
+   top: 70px;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+   align-items: center;
+   height: auto;
+ }
+
+ #mission {
+    background-image: URL("Images/img-mission-background.jpg");
+    max-height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    flex: 1 1200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+
+ .hero-text {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 0.5%;
+    opacity: 1;
+
+ }
+
+ .tea-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+
+ #tea
+ {
+   height: 700px;
+   width: 1000px;
+   margin: auto;
+   padding-top: 70px;
+ }
+
+ .item {
+   padding: 5px;
+ }
+ 
+ .item img {
+   height: 200px;
+   width: 300px;
+   margin: 10px;
+   display: block;
+ }
+ 
+ .item span {
+   display: block;
+   padding: 5px;
+   font-weight: bold;
+   text-align: center;
+ }
+
+ #locations {
+   height: 570px;
+   width: 1200px;
+   margin-top: 138px;
+   margin-bottom: 70px;
+   padding-top: 70px;
+   background-image: URL("Images/img-locations-background.jpg");
+   position: relative;
+ }
+
+.location-container {
+   display: flex;
+   flex-direction: row;
+   Justify-content: center;
+   height: 300px;
+}
+
+.location {
+   opacity: 1.0;
+   padding: 5px;
+   margin: 15px 40px;
+   background-color: black;
+   flex-basis: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.contact {
+   display: flex;
+   flex-direction: column;
+   height: 200px;
+   margin-bottom: 100px;
+}
+
+/*footer*/
+
+footer {
+   text-align: left;
+   padding-left: 20px;
+ }
+
